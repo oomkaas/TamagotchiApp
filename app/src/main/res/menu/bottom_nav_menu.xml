@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedFragment"
+        android:icon="@drawable/img_feed"
+        android:title="Feed" />
+    <item
+        android:id="@+id/playFragment"
+        android:icon="@drawable/img_play"
+        android:title="Play" />
+    <item
+        android:id="@+id/cleanFragment"
+        android:icon="@drawable/img_clean"
+        android:title="Clean" />
+</menu>

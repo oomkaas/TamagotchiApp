@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.tamagatchiapp2.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.tamagatchiapp2.FeedFragment"
+        android:label="Feed Fragment"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.tamagatchiapp2.PlayFragment"
+        android:label="Play Fragment"
+        tools:layout="@layout/fragment_play" />
+
+    <fragment
+        android:id="@+id/cleanFragment"
+        android:name="com.example.tamagatchiapp2.CleanFragment"
+        android:label="Clean Fragment"
+        tools:layout="@layout/fragment_clean" />
+</navigation>
